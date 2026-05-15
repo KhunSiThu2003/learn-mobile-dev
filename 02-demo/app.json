@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "01-project-setup",
-    "slug": "01-project-setup",
+    "name": "02-demo",
+    "slug": "02-demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "01projectsetup",
+    "scheme": "02demo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -19,8 +19,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.khunsithu.setup.expo"
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
@@ -44,12 +43,6 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "654b1122-4073-42a0-bee4-5cd83bbf0990"
-      }
     }
   }
 }
